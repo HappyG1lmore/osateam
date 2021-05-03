@@ -81,8 +81,9 @@ body {
     
 --------------------------------------------------*/
 .slider {
-    background-color: #0a122a;
+    
     background: url("../img/bg/bg_22.png") center center no-repeat;
+    background-color: RGBA(10, 18, 42, 1);
     background-size: cover;
     height: 100vh;
     position: relative;
@@ -1240,7 +1241,7 @@ projects
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
     .navbar {
-        background: RGBA(18, 24, 51, 1) !important;
+        background: RGBA(10, 18, 42, 1) !important;
         padding:20px;
     }
     .navbar .nav-item {
@@ -1293,7 +1294,7 @@ projects
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
     .navbar {
-        background: RGBA(18, 24, 51, 1) !important;
+        background: RGBA(10, 18, 42, 1) !important;
         padding:25px;
     }
     .navbar .nav-item {
@@ -1344,7 +1345,7 @@ projects
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
     .navbar {
-        background: RGBA(18, 24, 51, 1) !important;
+        background: RGBA(10, 18, 42, 1) !important;
         padding:25px;
     }
     .navbar .nav-item {
