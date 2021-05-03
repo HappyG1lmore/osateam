@@ -37,7 +37,7 @@ $(document).ready(function () {
 
         var top = $(window).scrollTop();
         if (top >= 100) {
-            $('.navbar').css('background', 'RGBA(18, 24, 51, 1)');
+            $('.navbar').css('background', 'RGBA(10, 18, 42, 1)');
         } else if ($('.navbar').css(
             'background',
             'linear-gradient(135deg, rgba(22, 37, 43, 1) 0%, rgba(22, 37, 43, 1) 100%)'
@@ -52,7 +52,7 @@ $(document).ready(function () {
 
 });
 
-
+/*
     VANTA.FOG({
     el: "#slider",
     mouseControls: true,
@@ -70,3 +70,4 @@ $(document).ready(function () {
         speed: 0.80,
         zoom: 0.40
 })
+*/

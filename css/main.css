@@ -82,13 +82,12 @@ body {
 --------------------------------------------------*/
 .slider {
 
-    background-attachment: fixed;
+    background: url("../img/bg/bg_22.png") center center no-repeat;
     background-size: cover;
     height: 100vh;
     position: relative;
-
-
 }
+
 .slider .content {
     z-index: 999;
     position: absolute;
@@ -857,13 +856,13 @@ body {
 --------------------------------------------------*/
 #pro {
     height: 100px;
-    background-color: RGBA(18, 24, 51, 1);
+    background-color: #0a122a;
 }
 
 .blog {
     padding: 0 0 80px;
+    background-color: #0a122a;
 
-    background-color: RGBA(18, 24, 51, 1);
 
 }
 .blog .heading {
@@ -977,7 +976,7 @@ projects
     width: 350px;
     min-height: 400px;
     border-radius: 10px;
-    background-color: #0c0e27;
+    background-color: #1f234b;
     margin: 10px;
     position: relative;
 }
@@ -1048,15 +1047,20 @@ projects
 .project_info_text {
     text-align: center;
     height: 50%;
-    margin: 15px;
-    color: white;
     width: 75%;
+    margin: 15px;
+    margin-top: 0;
+    color: white;
+    word-wrap: break-word;
+}
 
+.project_info_text a {
+    color: #1eafe9;
 }
 
 .project_info span{
     color: #1eafe9;
-    padding-right: 10px;}
+}
 
 .validation_container {
     display: flex;
@@ -1065,12 +1069,12 @@ projects
 }
 
 .validation_tag {
-    width: 30px;
-    height: 30px;
-    border-radius: 15px;
+    width: 18px;
+    height: 18px;
+    border-radius: 18px;
     background-color: #32c732;
-    left: 37px;
-    top: 31px;
+    left: 15px;
+    top: 15px;
 }
 
 .validation_tag.validation_tag--project {
@@ -1173,6 +1177,11 @@ projects
     height: 50px;
 }
 
+.contact .social li a.discord::before {
+    content: url("./../img/logo/discord.png");
+    height: 50px;
+}
+
 .contact .social_text {
     margin-left: 10px;
     display: flex;
@@ -1180,7 +1189,7 @@ projects
 }
 
 .contact .btn-contact {
-    width: 250px;
+    width: 255px;
     background: #1eafe9;
     box-shadow: 3px 3px 40px 0 rgba(0,0,0,0.2);
     color: #ffffff;
@@ -1245,7 +1254,9 @@ projects
     .slider {
         height: 800px;
         text-align: center;
+
     }
+
     .about {
         padding: 120px 0 80px 0;
     }
