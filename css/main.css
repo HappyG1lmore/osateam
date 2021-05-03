@@ -81,7 +81,7 @@ body {
     
 --------------------------------------------------*/
 .slider {
-
+    background-color: #0a122a;
     background: url("../img/bg/bg_22.png") center center no-repeat;
     background-size: cover;
     height: 100vh;
